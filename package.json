@@ -1,0 +1,27 @@
+{
+  "name": "gulp-awslambda-invoke",
+  "version": "0.0.1",
+  "description": "Invoke AWS Lambda functions in gulp.task",
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "fs": "0.0.2",
+    "path": "^0.12.7",
+    "through2": "^2.0.1",
+    "xtend": "^4.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cboscolo/gulp-awslambda-invoke.git"
+  },
+  "keywords": [
+    "gulpplugin"
+  ],
+  "author": "Chris Boscolo <chris@boscolo.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cboscolo/gulp-awslambda-invoke/issues"
+  },
+  "engines": {
+    "node": ">=0.10"
+  }
+}
