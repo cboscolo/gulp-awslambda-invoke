@@ -5,7 +5,7 @@ var extend = require('xtend');
 var path = require('path');
 var fs = require('fs');
 
-const PLUGIN_NAME = 'gulp-awslambda-invoke';
+var PLUGIN_NAME = 'gulp-awslambda-invoke';
 
 var DEFAULT_OPTIONS = {
     'PackageFolder': './',
